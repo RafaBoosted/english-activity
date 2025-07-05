@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Recovery Activity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 English Recovery Activity</h1>
+            <p>Master Present Simple, Future Simple, WH Questions, Technical Vocabulary & Reading</p>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <div class="score-display">
+            <span id="scoreDisplay">Score: 0/35</span>
+        </div>
+
+        <div id="questionsContainer"></div>
+
+        <div class="final-score" id="finalScore" style="display: none;">
+            <h2>🎉 Activity Complete!</h2>
+            <p id="finalScoreText"></p>
+            <button class="restart-btn" onclick="restartActivity()">Restart Activity</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
